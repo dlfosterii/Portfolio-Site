@@ -635,6 +635,30 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+/* skillIcons */
+
+	.skillIcons {
+		list-style-type: none;
+		display: flex;
+		flex-direction: row;
+		box-sizing: border-box;
+		width: 100%;
+	
+	}
+
+	.skillIcons>li{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+
+	.skillIcon {
+		font-size: 65px;
+	}
+
+	
+
 /* Image */
 
 	.image {

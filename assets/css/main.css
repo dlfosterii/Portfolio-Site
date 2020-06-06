@@ -657,9 +657,36 @@ input, select, textarea {
 		font-size: 65px;
 	}
 
-	
+/* Project */
+
+.project {
+	display: flex;
+	padding-bottom: 20px;
+}
+
+.projLinks {
+    justify-content: start;
+}
+
+.projInfo {
+	margin-bottom: 0vmin;
+}
+
+.projTitle {
+	margin-bottom: auto;
+}
 
 /* Image */
+.imageMain {
+	justify-content: flex-start;
+	margin-top: inherit;
+    margin-right: 10px;
+}
+
+	.projImage {
+		display: flex-start;
+		max-width: 250px;
+	}
 
 	.image {
 		border-radius: 4px;

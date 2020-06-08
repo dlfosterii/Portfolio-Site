@@ -1470,6 +1470,8 @@ input, select, textarea {
 				padding-top: 0;
 				padding-bottom: 0;
 				opacity: 0;
+				filter: blur(8px);
+				-webkit-filter: blur(8px);
 			}
 
 		@media screen and (max-width: 980px) {
@@ -1674,6 +1676,9 @@ input, select, textarea {
 
 		}
 
+#card {
+	backdrop-filter: blur(5px);
+}
 /* Footer */
 
 	#footer {
